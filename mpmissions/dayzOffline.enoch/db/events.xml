@@ -795,9 +795,9 @@
     </event>
     <event name="StaticHeliCrash">
         <nominal>3</nominal>
-        <min>0</min>
-        <max>0</max>
-        <lifetime>2100</lifetime>
+        <min>1</min>
+        <max>4</max>
+        <lifetime>3600</lifetime>
         <restock>0</restock>
         <saferadius>1000</saferadius>
         <distanceradius>1000</distanceradius>
