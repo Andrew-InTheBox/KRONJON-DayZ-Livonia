@@ -1,7 +1,7 @@
 @echo off
 :start
 ::Name for the CMD window
-set serverName=KRONJON-Lavonia
+set serverName=KRONJON-Livonia
 ::Server Port
 set serverPort=2302
 ::Server config
