@@ -795,7 +795,7 @@
     </event>
     <event name="StaticHeliCrash">
         <nominal>3</nominal>
-        <min>1</min>
+        <min>2</min>
         <max>4</max>
         <lifetime>3600</lifetime>
         <restock>0</restock>
@@ -808,7 +808,7 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="15" lootmin="10" max="3" min="1" type="Wreck_Mi8_Crashed"/>
+            <child lootmax="15" lootmin="12" max="3" min="1" type="Wreck_Mi8_Crashed"/>
         </children>
     </event>
     <event name="StaticMilitaryConvoy">
