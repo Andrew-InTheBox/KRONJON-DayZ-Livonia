@@ -1,3 +1,8 @@
+Expansion 2
+Expansion.EntityStorage 2
+Expansion.EntityStorage.Goatify 1
+Expansion.Creature 2
+Expansion.Creature.Lobotomize 2
 COT 2
 COT.View 2
 Admin 2
@@ -44,6 +49,7 @@ Admin.Player.Set.Water 2
 Admin.Player.Set.Stamina 2
 Admin.Player.Set.HeatBuffer 2
 Admin.Player.Set.BloodyHands 2
+Admin.Player.Set.ExpansionFaction 2
 Admin.Player.Read 2
 Admin.Transport 2
 Admin.Transport.Repair 2

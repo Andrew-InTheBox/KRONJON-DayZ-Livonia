@@ -8,7 +8,7 @@ import numpy as np
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Input file path
-file_path = r'C:\Program Files (x86)\Steam\steamapps\common\DayZServerChernaTrader\mpmissions\Expansion.chernarusplus\expansion\settings\AIPatrolSettings.json'
+file_path = r'C:\Program Files (x86)\Steam\steamapps\common\DayZServerLavonia\mpmissions\dayzOffline.enoch\expansion\settings\AIPatrolSettings.json'
 
 # Generate output filename with timestamp
 output_filename = f"{datetime.now().strftime('%Y%m%d%H%M')}_patrols.png"
