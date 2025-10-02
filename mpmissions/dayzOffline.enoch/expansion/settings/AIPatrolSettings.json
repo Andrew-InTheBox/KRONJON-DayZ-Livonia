@@ -130,7 +130,7 @@
       "FormationLooseness": 0.0,
       "Loadout": "",
       "Units": [],
-      "NumberOfAI": -3,
+      "NumberOfAI": -5,
       "Behaviour": "HALT_OR_ALTERNATE",
       "LootingBehaviour": "NONE",
       "Speed": "WALK",
