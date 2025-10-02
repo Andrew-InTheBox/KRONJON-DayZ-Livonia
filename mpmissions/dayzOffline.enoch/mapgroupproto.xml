@@ -16263,7 +16263,7 @@
 		</group>
 		<group name="Land_Wreck_hb01_aban1_police_DE" lootmax="4">
 				<usage name="Police" />
-				<container name="loot" lootmax="4">
+				<container name="loot" lootmax="5">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
