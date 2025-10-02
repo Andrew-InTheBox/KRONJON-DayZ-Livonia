@@ -1,4 +1,5 @@
 /@*/
+/_@*/
 *.exe
 *.RPT
 *.ADM
@@ -21,3 +22,4 @@
 CLAUDE.md
 */storage_1/
 mpmissions/dayzOffline.enoch/storage_1/
+*.mdmp
