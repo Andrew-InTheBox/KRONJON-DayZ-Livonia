@@ -18,7 +18,7 @@
       {
         "MinPlayers": 0,
         "MaxPlayers": 10,
-        "MaxPatrols": 25
+        "MaxPatrols": 35
       },
       {
         "MinPlayers": 11,
@@ -29,35 +29,20 @@
         "MinPlayers": 21,
         "MaxPlayers": 30,
         "MaxPatrols": 15
-      },
-      {
-        "MinPlayers": 31,
-        "MaxPlayers": 40,
-        "MaxPatrols": 8
-      },
-      {
-        "MinPlayers": 41,
-        "MaxPlayers": 50,
-        "MaxPatrols": 5
-      },
-      {
-        "MinPlayers": 51,
-        "MaxPlayers": 255,
-        "MaxPatrols": 2
       }
     ],
     "Quest": [
       {
         "MinPlayers": 0,
         "MaxPlayers": 255,
-        "MaxPatrols": -1
+        "MaxPatrols": 35
       }
     ],
     "ObjectPatrol": [
       {
         "MinPlayers": 0,
         "MaxPlayers": 255,
-        "MaxPatrols": 10
+        "MaxPatrols": 35
       }
     ],
     "HelicopterWreck": [
@@ -71,14 +56,14 @@
       {
         "MinPlayers": 0,
         "MaxPlayers": 255,
-        "MaxPatrols": 3
+        "MaxPatrols": 5
       }
     ],
     "Patrol": [
       {
         "MinPlayers": 0,
         "MaxPlayers": 255,
-        "MaxPatrols": 25
+        "MaxPatrols": 30
       }
     ]
   },
