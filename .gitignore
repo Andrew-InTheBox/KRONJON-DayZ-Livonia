@@ -1,8 +1,6 @@
 /@*/
 /_@*/
 !/_@Heatmap/
-/_@Heatmap/*
-!/_@Heatmap/tools/
 *.exe
 *.RPT
 *.ADM
@@ -10,6 +8,10 @@
 *.dll
 *.bisign
 *.pbo
+# Allow all files in _@Heatmap including pbo, dll, bisign
+!/_@Heatmap/**/*.pbo
+!/_@Heatmap/**/*.bisign
+!/_@Heatmap/**/*.dll
 *.bin
 *.vdf
 *.ebo
