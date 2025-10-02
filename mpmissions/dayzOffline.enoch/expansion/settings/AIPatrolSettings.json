@@ -994,9 +994,9 @@
       "UseRandomWaypointAsStartPoint": 1,
       "Waypoints": [
         [
-          1087.02,
-          445.637,
-          11409.2
+          1073.89,
+          100.0,
+          11409.9
         ]
       ]
     },
@@ -1038,9 +1038,9 @@
       "UseRandomWaypointAsStartPoint": 1,
       "Waypoints": [
         [
-          8945.13,
-          472.828,
-          2045.25
+          8718.65,
+          419.294,
+          2101.71
         ]
       ]
     }

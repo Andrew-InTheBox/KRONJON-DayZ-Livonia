@@ -92,7 +92,7 @@ Time:
     <span>AI Paths</span>
   </div>
   <div class="legend-item">
-    <span class="legend-dot" style="background-color: green;"></span>
+    <span class="legend-dot" style="background-color: magenta;"></span>
     <span>Zombie Locations</span>
   </div>
   <div class="legend-item">
@@ -462,15 +462,15 @@ function drawHeatmap(time)
   }
   }
 
-  // Draw zombie points (green dots)
+  // Draw zombie points (magenta dots)
   if (showZombies && zombiepoints.length > 0) {
-  ctx.globalAlpha = 0.5;
+  ctx.globalAlpha = 1.0;
   for(let i = 0; i < zombiepoints.length; i++) {
     let waypoint = zombiepoints[i];
     let x = canvas.width / size * waypoint[0];
     let y = canvas.height - (canvas.height / size * waypoint[2]);
     ctx.beginPath();
-    ctx.fillStyle = "green";
+    ctx.fillStyle = "magenta";
     ctx.arc(x, y, canvas.width*0.001, 0, 2 * Math.PI);
     ctx.fill();
   }
