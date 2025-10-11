@@ -83,7 +83,7 @@
             "Speed": "WALK",
             "UnderThreatSpeed": "SPRINT",
             "CanBeLooted": 1,
-            "LootDropOnDeath": "",
+            "LootDropOnDeath": "Default.json",
             "UnlimitedReload": 0,
             "SniperProneDistanceThreshold": 0.0,
             "AccuracyMin": -1.0,
@@ -122,7 +122,7 @@
             "Speed": "WALK",
             "UnderThreatSpeed": "SPRINT",
             "CanBeLooted": 0,
-            "LootDropOnDeath": "",
+            "LootDropOnDeath": "Default.json",
             "UnlimitedReload": 0,
             "SniperProneDistanceThreshold": 0.0,
             "AccuracyMin": -1.0,
@@ -161,7 +161,7 @@
             "Speed": "WALK",
             "UnderThreatSpeed": "SPRINT",
             "CanBeLooted": 0,
-            "LootDropOnDeath": "",
+            "LootDropOnDeath": "Default.json",
             "UnlimitedReload": 0,
             "SniperProneDistanceThreshold": 0.0,
             "AccuracyMin": -1.0,
@@ -200,7 +200,7 @@
             "Speed": "WALK",
             "UnderThreatSpeed": "SPRINT",
             "CanBeLooted": 0,
-            "LootDropOnDeath": "",
+            "LootDropOnDeath": "Default.json",
             "UnlimitedReload": 0,
             "SniperProneDistanceThreshold": 0.0,
             "AccuracyMin": -1.0,
@@ -239,7 +239,7 @@
             "Speed": "JOG",
             "UnderThreatSpeed": "SPRINT",
             "CanBeLooted": 0,
-            "LootDropOnDeath": "",
+            "LootDropOnDeath": "Default.json",
             "UnlimitedReload": 0,
             "SniperProneDistanceThreshold": 0.0,
             "AccuracyMin": -1.0,
@@ -278,7 +278,7 @@
             "Speed": "JOG",
             "UnderThreatSpeed": "SPRINT",
             "CanBeLooted": 0,
-            "LootDropOnDeath": "",
+            "LootDropOnDeath": "Default.json",
             "UnlimitedReload": 0,
             "SniperProneDistanceThreshold": 0.0,
             "AccuracyMin": -1.0,
@@ -657,7 +657,7 @@
             "Waypoints": [
                 [
                     2100.6298828125,
-                    453.8139953613281,
+                    300.8139953613281,
                     2331.340087890625
                 ]
             ]
