@@ -1,7 +1,7 @@
 {
-    "m_Version": 15,
-    "AccuracyMin": 0.85,
-    "AccuracyMax": 0.92,
+    "m_Version": 16,
+    "AccuracyMin": 0.8500000238418579,
+    "AccuracyMax": 0.9200000166893005,
     "ThreatDistanceLimit": 400.0,
     "NoiseInvestigationDistanceLimit": 1000.0,
     "DamageMultiplier": 1.0,
@@ -15,6 +15,7 @@
     "MemeLevel": 0,
     "CanRecruitFriendly": 1,
     "CanRecruitGuards": 0,
+    "MaxRecruitableAI": 1,
     "PreventClimb": [],
     "FormationScale": 1.0,
     "PlayerFactions": [],
