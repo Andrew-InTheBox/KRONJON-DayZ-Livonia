@@ -103,7 +103,7 @@
     {
         "ClassName": "Ammo_545x39",
         "Include": "",
-        "Chance": 0.2,
+        "Chance": 0.15,
         "Quantity": {
             "Min": 0.2000000059604645,
             "Max": 0.600000011920929
@@ -123,7 +123,7 @@
     {
         "ClassName": "Ammo_545x39Tracer",
         "Include": "",
-        "Chance": 0.2,
+        "Chance": 0.15,
         "Quantity": {
             "Min": 0.2000000059604645,
             "Max": 0.600000011920929
@@ -143,7 +143,7 @@
     {
         "ClassName": "Ammo_762x39",
         "Include": "",
-        "Chance": 0.2,
+        "Chance": 0.15,
         "Quantity": {
             "Min": 0.20000000298023225,
             "Max": 0.6000000238418579
@@ -163,7 +163,7 @@
     {
         "ClassName": "Ammo_357",
         "Include": "",
-        "Chance": 0.2,
+        "Chance": 0.15,
         "Quantity": {
             "Min": 0.20000000298023225,
             "Max": 0.6000000238418579
@@ -183,7 +183,7 @@
     {
         "ClassName": "Ammo_9x19",
         "Include": "",
-        "Chance": 0.2,
+        "Chance": 0.15,
         "Quantity": {
             "Min": 0.20000000298023225,
             "Max": 0.6000000238418579
@@ -203,7 +203,7 @@
     {
         "ClassName": "Ammo_380",
         "Include": "",
-        "Chance": 0.2,
+        "Chance": 0.15,
         "Quantity": {
             "Min": 0.20000000298023225,
             "Max": 0.6000000238418579
@@ -223,7 +223,7 @@
     {
         "ClassName": "Ammo_762x39Tracer",
         "Include": "",
-        "Chance": 0.2,
+        "Chance": 0.15,
         "Quantity": {
             "Min": 0.20000000298023225,
             "Max": 0.6000000238418579
@@ -243,7 +243,7 @@
     {
         "ClassName": "Ammo_556x45",
         "Include": "",
-        "Chance": 0.2,
+        "Chance": 0.15,
         "Quantity": {
             "Min": 0.2000000059604645,
             "Max": 0.600000011920929
@@ -263,7 +263,7 @@
     {
         "ClassName": "Ammo_556x45Tracer",
         "Include": "",
-        "Chance": 0.2,
+        "Chance": 0.15,
         "Quantity": {
             "Min": 0.2000000059604645,
             "Max": 0.600000011920929
@@ -283,7 +283,7 @@
     {
         "ClassName": "Ammo_762x54",
         "Include": "",
-        "Chance": 0.20,
+        "Chance": 0.15,
         "Quantity": {
             "Min": 0.20000000298023225,
             "Max": 0.6000000238418579
@@ -303,7 +303,7 @@
     {
         "ClassName": "Ammo_762x54Tracer",
         "Include": "",
-        "Chance": 0.20,
+        "Chance": 0.15,
         "Quantity": {
             "Min": 0.20000000298023225,
             "Max": 0.6000000238418579
@@ -323,7 +323,7 @@
     {
         "ClassName": "Ammo_308Win",
         "Include": "",
-        "Chance": 0.19,
+        "Chance": 0.15,
         "Quantity": {
             "Min": 0.20000000298023225,
             "Max": 0.6000000238418579
@@ -343,7 +343,7 @@
     {
         "ClassName": "Ammo_308WinTracer",
         "Include": "",
-        "Chance": 0.10,
+        "Chance": 0.15,
         "Quantity": {
             "Min": 0.20000000298023225,
             "Max": 0.6000000238418579
