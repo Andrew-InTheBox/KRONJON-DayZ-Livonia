@@ -1,4 +1,105 @@
 [
+    
+    {
+        "ClassName": "Mag_Deagle_9rnd",
+        "Include": "",
+        "Chance": 0.05,
+        "Quantity": {
+            "Min": 1.0,
+            "Max": 1.0
+        },
+        "Health": [
+            {
+                "Min": 0.699999988079071,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": []
+    },
+    {
+        "ClassName": "GorkaEJacket_Summer",
+        "Include": "",
+        "Chance": 0.05,
+        "Quantity": {
+            "Min": 1.0,
+            "Max": 1.0
+        },
+        "Health": [
+            {
+                "Min": 0.699999988079071,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": []
+    },
+    {
+        "ClassName": "FNP45_MRDSOptic",
+        "Include": "",
+        "Chance": 0.05,
+        "Quantity": {
+            "Min": 1.0,
+            "Max": 1.0
+        },
+        "Health": [
+            {
+                "Min": 0.699999988079071,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": []
+    },
+    {
+        "ClassName": "Whetstone",
+        "Include": "",
+        "Chance": 0.05,
+        "Quantity": {
+            "Min": 1.0,
+            "Max": 1.0
+        },
+        "Health": [
+            {
+                "Min": 0.699999988079071,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": []
+    },
+    {
+        "ClassName": "PistolSuppressor",
+        "Include": "",
+        "Chance": 0.05,
+        "Quantity": {
+            "Min": 1.0,
+            "Max": 1.0
+        },
+        "Health": [
+            {
+                "Min": 0.699999988079071,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": []
+    },
     {
         "ClassName": "Ammo_545x39",
         "Include": "",
@@ -41,6 +142,66 @@
     },
     {
         "ClassName": "Ammo_762x39",
+        "Include": "",
+        "Chance": 0.2,
+        "Quantity": {
+            "Min": 0.20000000298023225,
+            "Max": 0.6000000238418579
+        },
+        "Health": [
+            {
+                "Min": 0.699999988079071,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": []
+    },
+    {
+        "ClassName": "Ammo_357",
+        "Include": "",
+        "Chance": 0.2,
+        "Quantity": {
+            "Min": 0.20000000298023225,
+            "Max": 0.6000000238418579
+        },
+        "Health": [
+            {
+                "Min": 0.699999988079071,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": []
+    },
+    {
+        "ClassName": "Ammo_9x19",
+        "Include": "",
+        "Chance": 0.2,
+        "Quantity": {
+            "Min": 0.20000000298023225,
+            "Max": 0.6000000238418579
+        },
+        "Health": [
+            {
+                "Min": 0.699999988079071,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": []
+    },
+    {
+        "ClassName": "Ammo_380",
         "Include": "",
         "Chance": 0.2,
         "Quantity": {
