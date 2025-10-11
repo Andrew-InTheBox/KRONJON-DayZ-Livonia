@@ -6,6 +6,8 @@ void main()
 		ce.InitOffline();
 
 	//DATE RESET AFTER ECONOMY INIT-------------------------
+	/*
+	
 	int year, month, day, hour, minute;
 	int reset_month = 7, reset_day = 17;
 	GetGame().GetWorld().GetDate(year, month, day, hour, minute);
@@ -28,6 +30,7 @@ void main()
 			}
 		}
 	}
+	*/
 }
 
 class CustomMission: MissionServer
