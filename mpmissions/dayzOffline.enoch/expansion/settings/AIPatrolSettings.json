@@ -56,14 +56,14 @@
             {
                 "MinPlayers": 0,
                 "MaxPlayers": 255,
-                "MaxPatrols": 5
+                "MaxPatrols": 10
             }
         ],
         "Patrol": [
             {
                 "MinPlayers": 0,
                 "MaxPlayers": 255,
-                "MaxPatrols": 30
+                "MaxPatrols": 40
             }
         ]
     },
