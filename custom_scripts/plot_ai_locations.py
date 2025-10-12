@@ -6,6 +6,7 @@ Labels each point with its location name.
 
 import json
 import matplotlib.pyplot as plt
+from matplotlib.patches import Circle
 from datetime import datetime
 from pathlib import Path
 
@@ -28,14 +29,16 @@ def plot_ai_locations(json_file_path, output_dir=None):
         print("No locations found in the JSON file!")
         return
 
-    # Extract X, Y coordinates and names
+    # Extract X, Y coordinates, names, and radius values
     x_coords = []
     y_coords = []
     names = []
+    radii = []
 
     for location in locations:
         position = location.get('Position', [])
         name = location.get('Name', 'Unknown')
+        radius = location.get('Radius', 100.0)  # Default to 100 if not specified
 
         if len(position) >= 3:
             x = position[0]  # First coordinate
@@ -44,28 +47,41 @@ def plot_ai_locations(json_file_path, output_dir=None):
             x_coords.append(x)
             y_coords.append(y)
             names.append(name)
+            radii.append(radius)
 
     # Create the plot
     fig, ax = plt.subplots(figsize=(10, 10), dpi=100)  # 1000x1000 pixels (10 inches * 100 dpi)
 
-    # Plot points
-    ax.scatter(x_coords, y_coords, c='red', s=50, alpha=0.6, edgecolors='black', linewidth=0.5)
+    # Draw circles with actual radius values (in data coordinates = meters)
+    for i in range(len(x_coords)):
+        circle = Circle((x_coords[i], y_coords[i]), radii[i],
+                       fill=True, facecolor='red', alpha=0.3,
+                       edgecolor='darkred', linewidth=1.5)
+        ax.add_patch(circle)
+
+    # Plot center points for visibility
+    ax.scatter(x_coords, y_coords, c='red', s=20, alpha=0.8, edgecolors='black', linewidth=0.5, zorder=5)
 
     # Add labels for each point
     for i, name in enumerate(names):
         ax.annotate(name, (x_coords[i], y_coords[i]),
                    fontsize=6,
-                   alpha=0.7,
+                   alpha=0.8,
                    xytext=(3, 3),  # Offset text slightly from point
-                   textcoords='offset points')
+                   textcoords='offset points',
+                   zorder=6)
 
     # Set labels and title
-    ax.set_xlabel('X Coordinate', fontsize=12)
-    ax.set_ylabel('Y Coordinate', fontsize=12)
-    ax.set_title('AI Location Positions', fontsize=14, fontweight='bold')
+    ax.set_xlabel('X Coordinate (meters)', fontsize=12)
+    ax.set_ylabel('Y Coordinate (meters)', fontsize=12)
+    ax.set_title('AI Location Positions (circles show radius)', fontsize=14, fontweight='bold')
 
     # Add grid for better readability
     ax.grid(True, alpha=0.3, linestyle='--')
+
+    # Set axis limits to show full map (0-12800 meters) with some padding
+    ax.set_xlim(-500, 13000)
+    ax.set_ylim(-500, 13000)
 
     # Make sure the plot is square with equal aspect ratio
     ax.set_aspect('equal', adjustable='box')
