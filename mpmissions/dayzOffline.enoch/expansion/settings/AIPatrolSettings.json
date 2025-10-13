@@ -227,7 +227,7 @@
         {
             "Name": "Contam-Static",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "West",
             "Formation": "",
             "FormationScale": 0.0,
             "FormationLooseness": 0.0,
@@ -266,7 +266,7 @@
         {
             "Name": "Contam-Dynamic",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "West",
             "Formation": "",
             "FormationScale": 0.0,
             "FormationLooseness": 0.0,
