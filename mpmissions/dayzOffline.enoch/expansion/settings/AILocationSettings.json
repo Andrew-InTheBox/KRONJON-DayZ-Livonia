@@ -629,7 +629,9 @@
         "Land_Shed_W2",
         "Land_Tenement_Big",
         "Land_Misc_Toilet_Mobile",
-        "Land_Ship_Medium2"
+        "Land_Ship_Medium2",
+        "Land_CementWorks_SiloBig1A",
+        "Land_CementWorks_SiloBig1B"
     ],
     "NoGoAreas": []
 }
