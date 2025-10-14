@@ -16400,10 +16400,10 @@
         <value name="Tier3"/>
     </type>
     <type name="SSG82">
-        <nominal>6</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>2</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>

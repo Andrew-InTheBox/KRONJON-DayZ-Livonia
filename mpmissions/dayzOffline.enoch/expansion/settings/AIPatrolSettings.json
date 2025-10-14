@@ -71,7 +71,7 @@
         {
             "Name": "Wreck_UH1Y",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "West",
             "Formation": "",
             "FormationScale": 0.0,
             "FormationLooseness": 0.0,
@@ -110,7 +110,7 @@
         {
             "Name": "Wreck_Mi8_Crashed",
             "Persist": 0,
-            "Faction": "East",
+            "Faction": "West",
             "Formation": "",
             "FormationScale": 0.0,
             "FormationLooseness": 0.0,
