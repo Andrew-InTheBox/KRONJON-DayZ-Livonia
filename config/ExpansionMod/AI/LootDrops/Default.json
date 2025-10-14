@@ -141,6 +141,46 @@
         "Sets": []
     },
     {
+        "ClassName": "Ammo_12gaPellets",
+        "Include": "",
+        "Chance": 0.15,
+        "Quantity": {
+            "Min": 0.2000000059604645,
+            "Max": 0.500000011920929
+        },
+        "Health": [
+            {
+                "Min": 0.699999988079071,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": []
+    },
+    {
+        "ClassName": "Ammo_12gaSlug",
+        "Include": "",
+        "Chance": 0.15,
+        "Quantity": {
+            "Min": 0.2000000059604645,
+            "Max": 0.500000011920929
+        },
+        "Health": [
+            {
+                "Min": 0.699999988079071,
+                "Max": 1.0,
+                "Zone": ""
+            }
+        ],
+        "InventoryAttachments": [],
+        "InventoryCargo": [],
+        "ConstructionPartsBuilt": [],
+        "Sets": []
+    },
+    {
         "ClassName": "Ammo_545x39Tracer",
         "Include": "",
         "Chance": 0.15,
