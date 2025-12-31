@@ -2193,23 +2193,6 @@ class Expansion_Master_Idle_FollowFormation_Transition_0: eAITransition {
 	override ExpansionState GetDestination() { return dst; }
 	override string GetEvent() { return ""; }
 }
-class Expansion_Master_Flank_FollowFormation_Transition_0: eAITransition {
-	private Expansion_Master_Flank_State_0 src;
-	private Expansion_Master_FollowFormation_State_0 dst;
-	Expansion_Master_FSM_0 fsm;
-	void Expansion_Master_Flank_FollowFormation_Transition_0(ExpansionFSM _fsm) {
-		Class.CastTo(fsm, _fsm);
-		m_ClassName = "Expansion_Master_Flank_FollowFormation_Transition_0";
-		Class.CastTo(src, _fsm.GetState("Expansion_Master_Flank_State_0"));
-		Class.CastTo(dst, _fsm.GetState("Expansion_Master_FollowFormation_State_0"));
-	}
-	override int Guard() {
-		return dst.Guard();
-	}
-	override ExpansionState GetSource() { return src; }
-	override ExpansionState GetDestination() { return dst; }
-	override string GetEvent() { return ""; }
-}
 class Expansion_Master_Idle_TraversingWaypoints_Transition_0: eAITransition {
 	private Expansion_Master_Idle_State_0 src;
 	private Expansion_Master_TraversingWaypoints_State_0 dst;
@@ -2218,23 +2201,6 @@ class Expansion_Master_Idle_TraversingWaypoints_Transition_0: eAITransition {
 		Class.CastTo(fsm, _fsm);
 		m_ClassName = "Expansion_Master_Idle_TraversingWaypoints_Transition_0";
 		Class.CastTo(src, _fsm.GetState("Expansion_Master_Idle_State_0"));
-		Class.CastTo(dst, _fsm.GetState("Expansion_Master_TraversingWaypoints_State_0"));
-	}
-	override int Guard() {
-		return dst.Guard();
-	}
-	override ExpansionState GetSource() { return src; }
-	override ExpansionState GetDestination() { return dst; }
-	override string GetEvent() { return ""; }
-}
-class Expansion_Master_Flank_TraversingWaypoints_Transition_0: eAITransition {
-	private Expansion_Master_Flank_State_0 src;
-	private Expansion_Master_TraversingWaypoints_State_0 dst;
-	Expansion_Master_FSM_0 fsm;
-	void Expansion_Master_Flank_TraversingWaypoints_Transition_0(ExpansionFSM _fsm) {
-		Class.CastTo(fsm, _fsm);
-		m_ClassName = "Expansion_Master_Flank_TraversingWaypoints_Transition_0";
-		Class.CastTo(src, _fsm.GetState("Expansion_Master_Flank_State_0"));
 		Class.CastTo(dst, _fsm.GetState("Expansion_Master_TraversingWaypoints_State_0"));
 	}
 	override int Guard() {
@@ -2470,9 +2436,7 @@ class Expansion_Master_FSM_0: eAIFSM {
 		AddTransition(new Expansion_Master_FollowFormation_TidyCargo_Transition_0(this));
 		AddTransition(new Expansion_Master_TidyCargo_Idle_Transition_0(this));
 		AddTransition(new Expansion_Master_Idle_FollowFormation_Transition_0(this));
-		AddTransition(new Expansion_Master_Flank_FollowFormation_Transition_0(this));
 		AddTransition(new Expansion_Master_Idle_TraversingWaypoints_Transition_0(this));
-		AddTransition(new Expansion_Master_Flank_TraversingWaypoints_Transition_0(this));
 		AddTransition(new Expansion_Master_Idle_Flank_Transition_0(this));
 		AddTransition(new Expansion_Master_TraversingWaypoints_Flank_Transition_0(this));
 		AddTransition(new Expansion_Master_FollowFormation_Flank_Transition_0(this));
