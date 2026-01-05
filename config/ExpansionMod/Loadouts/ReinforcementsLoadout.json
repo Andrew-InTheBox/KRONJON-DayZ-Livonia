@@ -835,7 +835,7 @@
             "SlotName": "Vest",
             "Items": [
                 {
-                    "ClassName": "SmershVest",
+                    "ClassName": "PoliceVest",
                     "Include": "",
                     "Chance": 1.0,
                     "Quantity": {
