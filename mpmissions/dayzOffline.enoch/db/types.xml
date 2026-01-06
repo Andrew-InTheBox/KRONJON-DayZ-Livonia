@@ -651,10 +651,10 @@
         <usage name="Military"/>
     </type>
     <type name="AmmoBox_545x39_20Rnd">
-        <nominal>10</nominal>
+        <nominal>60</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>6</min>
+        <min>55</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
