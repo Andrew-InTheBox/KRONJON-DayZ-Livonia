@@ -844,32 +844,12 @@
                     },
                     "Health": [
                         {
-                            "Min": 0.699999988079071,
+                            "Min": 0.81,
                             "Max": 1.0,
                             "Zone": ""
                         }
                     ],
-                    "InventoryAttachments": [
-                        {
-                            "SlotName": "",
-                            "Items": [
-                                {
-                                    "ClassName": "SmershBag",
-                                    "Include": "",
-                                    "Chance": 0.800000011920929,
-                                    "Quantity": {
-                                        "Min": 0.0,
-                                        "Max": 0.0
-                                    },
-                                    "Health": [],
-                                    "InventoryAttachments": [],
-                                    "InventoryCargo": [],
-                                    "ConstructionPartsBuilt": [],
-                                    "Sets": []
-                                }
-                            ]
-                        }
-                    ],
+                    "InventoryAttachments": [],
                     "InventoryCargo": [],
                     "ConstructionPartsBuilt": [],
                     "Sets": []

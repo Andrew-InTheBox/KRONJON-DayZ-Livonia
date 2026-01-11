@@ -17,7 +17,7 @@
     "aircraftLoiterOnPlayer": 1,
     "aircraftLoiterTime": 45.0,
     "aircraftShootAtPlayer": 1,
-    "aircraftAccuracy": 13.0,
+    "aircraftAccuracy": 20.0,
     "aircraftCrew": "--> The settings below are for AI spawned at crash sites <--",
     "aircraftMinCrew": 3,
     "aircraftMaxCrew": 3,
