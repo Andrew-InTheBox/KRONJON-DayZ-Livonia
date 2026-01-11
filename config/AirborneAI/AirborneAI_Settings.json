@@ -17,7 +17,7 @@
     "aircraftLoiterOnPlayer": 1,
     "aircraftLoiterTime": 45.0,
     "aircraftShootAtPlayer": 1,
-    "aircraftAccuracy": 20.0,
+    "aircraftAccuracy": 25.0,
     "aircraftCrew": "--> The settings below are for AI spawned at crash sites <--",
     "aircraftMinCrew": 3,
     "aircraftMaxCrew": 3,
@@ -36,7 +36,7 @@
     "typeOfAI": 0,
     "aiActivity": 2,
     "canBeLooted": 0,
-    "unlimitedReload": 0,
+    "unlimitedReload": 4,
     "maxMoveSpeed": 2.0,
     "minMoveSpeed": 1.0,
     "noiseInvestigationRange": 850.0,
@@ -72,12 +72,12 @@
     "maxCrashLootItems": 8,
     "CrashLoot": [
         {
-            "chance": 101.0,
+            "chance": 10.0,
             "classname": "AYSA_blackBox",
             "attachments": ""
         },
         {
-            "chance": 75.0,
+            "chance": 50.0,
             "classname": "SmershBag",
             "attachments": "Chemlight_Green"
         },
@@ -119,6 +119,16 @@
         {
             "chance": 100.0,
             "classname": "MMG_camelback_dark_woodland",
+            "attachments": ""
+        },
+        {
+            "chance": 100.0,
+            "classname": "MMG_camelback_dark_woodland",
+            "attachments": ""
+        },
+        {
+            "chance": 100.0,
+            "classname": "AmmoBox",
             "attachments": ""
         }
     ]

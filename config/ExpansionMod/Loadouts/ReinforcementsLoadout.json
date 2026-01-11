@@ -422,7 +422,7 @@
                         {
                             "ClassName": "BandageDressing",
                             "Include": "",
-                            "Chance": 0.10000000149011612,
+                            "Chance": 1.0,
                             "Quantity": {
                                 "Min": 0.0,
                                 "Max": 0.0
@@ -569,7 +569,7 @@
                         {
                             "ClassName": "BandageDressing",
                             "Include": "",
-                            "Chance": 0.10000000149011612,
+                            "Chance": 1.0,
                             "Quantity": {
                                 "Min": 0.0,
                                 "Max": 0.0
@@ -583,7 +583,7 @@
                         {
                             "ClassName": "BandageDressing",
                             "Include": "",
-                            "Chance": 0.10000000149011612,
+                            "Chance": 1.0,
                             "Quantity": {
                                 "Min": 0.0,
                                 "Max": 0.0
@@ -730,7 +730,7 @@
                         {
                             "ClassName": "BandageDressing",
                             "Include": "",
-                            "Chance": 0.10000000149011612,
+                            "Chance": 1.0,
                             "Quantity": {
                                 "Min": 0.0,
                                 "Max": 0.0
@@ -744,7 +744,7 @@
                         {
                             "ClassName": "BandageDressing",
                             "Include": "",
-                            "Chance": 0.10000000149011612,
+                            "Chance": 1.0,
                             "Quantity": {
                                 "Min": 0.0,
                                 "Max": 0.0
@@ -845,66 +845,6 @@
                     "Health": [
                         {
                             "Min": 0.81,
-                            "Max": 1.0,
-                            "Zone": ""
-                        }
-                    ],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "UKAssVest_Olive",
-                    "Include": "",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [
-                        {
-                            "Min": 0.699999988079071,
-                            "Max": 1.0,
-                            "Zone": ""
-                        }
-                    ],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "UKAssVest_Camo",
-                    "Include": "",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [
-                        {
-                            "Min": 0.699999988079071,
-                            "Max": 1.0,
-                            "Zone": ""
-                        }
-                    ],
-                    "InventoryAttachments": [],
-                    "InventoryCargo": [],
-                    "ConstructionPartsBuilt": [],
-                    "Sets": []
-                },
-                {
-                    "ClassName": "HighCapacityVest_Olive",
-                    "Include": "",
-                    "Chance": 1.0,
-                    "Quantity": {
-                        "Min": 0.0,
-                        "Max": 0.0
-                    },
-                    "Health": [
-                        {
-                            "Min": 0.699999988079071,
                             "Max": 1.0,
                             "Zone": ""
                         }
@@ -1154,7 +1094,7 @@
         {
             "ClassName": "BandageDressing",
             "Include": "",
-            "Chance": 0.15000000596046449,
+            "Chance": 1.0,
             "Quantity": {
                 "Min": 0.0,
                 "Max": 0.0
