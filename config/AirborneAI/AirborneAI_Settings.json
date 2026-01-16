@@ -2,22 +2,22 @@
     "readMe": "--> Be sure to check the config explanation on the workshop for option descriptions <--",
     "Enabled": 1,
     "minPlayersToSpawnAircraft": 1,
-    "maxActiveAircraft": 1,
+    "maxActiveAircraft": 2,
     "startDelayTime": 90.0,
-    "timeBetweenPlaneSpawns": 350.0,
-    "maxTimeBetweenPlaneSpawns": 650.0,
+    "timeBetweenPlaneSpawns": 360.0,
+    "maxTimeBetweenPlaneSpawns": 540.0,
     "allowNightFlights": 0,
     "staticPlaneSpawnPosition": "",
     "overflyRandomPlayer": 1,
     "minPlayersForOverfly": 1,
     "safeZonePositions": "",
-    "noOverflyOnTerritory": 1,
+    "noOverflyOnTerritory": 0,
     "aircraftFlightSpeed": 3.0,
     "aircraftEngineNoiseSFX": 1,
     "aircraftLoiterOnPlayer": 1,
     "aircraftLoiterTime": 45.0,
     "aircraftShootAtPlayer": 1,
-    "aircraftAccuracy": 25.0,
+    "aircraftAccuracy": 30.0,
     "aircraftCrew": "--> The settings below are for AI spawned at crash sites <--",
     "aircraftMinCrew": 3,
     "aircraftMaxCrew": 3,
@@ -68,8 +68,8 @@
     "dynamicTriggerRadius": 50.0,
     "dynamicCoolDown": 1800.0,
     "crashLootItems": "--> The settings below are for loot that spawns around aircraft crash sites <--",
-    "minCrashLootItems": 5,
-    "maxCrashLootItems": 8,
+    "minCrashLootItems": 8,
+    "maxCrashLootItems": 10,
     "CrashLoot": [
         {
             "chance": 10.0,
@@ -77,24 +77,9 @@
             "attachments": ""
         },
         {
-            "chance": 50.0,
-            "classname": "SmershBag",
-            "attachments": "Chemlight_Green"
-        },
-        {
-            "chance": 10.0,
+            "chance": 20.0,
             "classname": "AKM",
             "attachments": "Mag_AKM_30Rnd,AK_WoodBttstck,AK_WoodHndgrd"
-        },
-        {
-            "chance": 50.0,
-            "classname": "Canteen",
-            "attachments": ""
-        },
-        {
-            "chance": 50.0,
-            "classname": "CombatKnife",
-            "attachments": ""
         },
         {
             "chance": 100.0,
@@ -112,24 +97,31 @@
             "attachments": ""
         },
         {
-            "chance": 50.0,
-            "classname": "BandageDressing",
+            "chance": 100.0,
+            "classname": "MMG_camelback_alpine",
             "attachments": ""
         },
         {
             "chance": 100.0,
-            "classname": "MMG_camelback_dark_woodland",
-            "attachments": ""
-        },
-        {
-            "chance": 100.0,
-            "classname": "MMG_camelback_dark_woodland",
+            "classname": "MMG_camelback_black",
             "attachments": ""
         },
         {
             "chance": 100.0,
             "classname": "AmmoBox",
             "attachments": ""
+        },
+        {
+            "chance": 100.0,
+            "classname": "MMG_falcon_b1_belt_black",
+            "attachments": ""
+        },
+        {
+            "chance": 100.0,
+            "classname": "MMG_falcon_b1_belt_alpine",
+            "attachments": ""
         }
     ]
 }
+
+

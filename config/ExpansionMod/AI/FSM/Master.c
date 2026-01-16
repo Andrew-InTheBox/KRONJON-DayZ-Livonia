@@ -70,8 +70,7 @@ class Expansion_Vehicles_GoToVehicle_OpenVehicleDoor_Transition_0: eAITransition
 	override int Guard() {
 		if (vector.DistanceSq(unit.GetPosition(), src.m_Position) > 1.0) return FAIL;
 		if (!src.m_Transport.IsAreaAtDoorFree(src.m_Seat)) return FAIL;
-		CarScript cs;
-		if (src.m_Transport.CrewMember(src.m_Seat) || (Class.CastTo(cs, src.m_Transport) && cs.Expansion_IsSeatReservedByOther(src.m_Seat, unit))) return FAIL;
+		if (src.m_Transport.CrewMember(src.m_Seat) || (src.m_Vehicle.IsSeatReservedByOther(src.m_Seat, unit))) return FAIL;
 		return SUCCESS;
 	}
 	override ExpansionState GetSource() { return src; }
@@ -119,8 +118,7 @@ class Expansion_Vehicles_OpenVehicleDoor_GetInVehicle_Transition_0: eAITransitio
 		if (vector.DistanceSq(unit.GetPosition(), src.m_Position) > 1.0) return FAIL;
 		if (unit.IsInTransport()) return FAIL;
 		if (!src.m_Transport.CrewCanGetThrough(src.m_Seat) || !src.m_Transport.IsAreaAtDoorFree(src.m_Seat)) return FAIL;
-		CarScript cs;
-		if (src.m_Transport.CrewMember(src.m_Seat) || (Class.CastTo(cs, src.m_Transport) && cs.Expansion_IsSeatReservedByOther(src.m_Seat, unit))) return FAIL;
+		if (src.m_Transport.CrewMember(src.m_Seat) || (src.m_Vehicle.IsSeatReservedByOther(src.m_Seat, unit))) return FAIL;
 		return SUCCESS;
 	}
 	override ExpansionState GetSource() { return src; }

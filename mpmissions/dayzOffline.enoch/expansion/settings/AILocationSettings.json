@@ -1,5 +1,5 @@
 {
-    "m_Version": 3,
+    "m_Version": 4,
     "RoamingLocations": [
         {
             "Name": "Bielawa",
@@ -632,7 +632,8 @@
         "Land_Ship_Medium2",
         "Land_CementWorks_SiloBig1A",
         "Land_CementWorks_SiloBig1B",
-        "Land_Boat_"
+        "Land_Boat_",
+        "Land_Train_Wagon_Box"
     ],
     "NoGoAreas": [
         {

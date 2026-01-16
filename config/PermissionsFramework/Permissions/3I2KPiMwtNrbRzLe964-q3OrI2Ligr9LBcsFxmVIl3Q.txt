@@ -5,6 +5,7 @@ Admin.Map 0
 Admin.Map.Players 0
 Admin.Map.View 0
 Admin.Player 0
+Admin.Player.AccessInventory 0
 Admin.Player.AdminNVG 0
 Admin.Player.Ban 0
 Admin.Player.BrokenLegs 0
@@ -134,6 +135,7 @@ Weather 0
 Weather.Date 0
 Weather.Fog 0
 Weather.Fog.Dynamic 0
+Weather.FreezeTime 0
 Weather.Overcast 0
 Weather.Preset 0
 Weather.Preset.Create 0
