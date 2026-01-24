@@ -33,3 +33,5 @@ cache.ch
 # Ignore heatmap session files except the example
 config/Heatmap/session_*.json
 !config/Heatmap/example_Heatmap.json
+
+.claude/
